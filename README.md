@@ -35,6 +35,11 @@
   </picture>
 </p>
 
+## Installation 
+```bash
+git clone https://github.com/Lyaguhh/mainsail-nord.git ~/klipper_config/.theme
+```
+
 <p align="center">
   Copyright &copy; 2024-present <a href="" target="_blank">Lyaguhh_</a>
 </p>
