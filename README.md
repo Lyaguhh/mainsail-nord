@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.nordtheme.com/ports/jetbrains" target="_blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/repository-hero.svg?sanitize=true" width="100%" />
+      <source srcset="https://raw.githubusercontent.com/Lyaguhh/mainsail-nord/bdf3c3b72d66db12e4e05ff1068eed2cfbd200cc/repository-hero.svg" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/Lyaguhh/mainsail-nord/bdf3c3b72d66db12e4e05ff1068eed2cfbd200cc/repository-hero.svg" width="100%" />
     </picture>
   </a>
 </p>
