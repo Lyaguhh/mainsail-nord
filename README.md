@@ -36,5 +36,5 @@
 </p>
 
 <p align="center">
-  Copyright &copy; 2034-present <a href="" target="_blank">Lyaguhh_</a>
+  Copyright &copy; 2024-present <a href="" target="_blank">Lyaguhh_</a>
 </p>
