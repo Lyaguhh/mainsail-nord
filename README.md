@@ -15,7 +15,7 @@
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-plugins-installed.png"/>
+    <img src="https://raw.githubusercontent.com/Lyaguhh/mainsail-nord/main/screenshot_d.png"/>
   </picture>
 </p>
 
@@ -23,7 +23,7 @@
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/jetbrains/ui-plugins-installed.png"/>
+    <img src="https://raw.githubusercontent.com/Lyaguhh/mainsail-nord/main/screenshot_l.png"/>
   </picture>
 </p>
 
