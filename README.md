@@ -154,24 +154,3 @@ The guide also includes information about [minimal, complete, and verifiable exa
     <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABMklEQVQ4jcWQvUoDQRRGz52s5IfVIiDWPkGKFFaCIVaGdIagjcFAwICFb7DvIK6QQlNpY2UQLMQVBbEQ0SewFkGbKCQmOzaTJay7/lR+zTAf9xwuF/47Mv45rdezqWEq72v/RWZnHgqOMwDwHMfSj085JSqb6Pu38we7r18E3nqzhmYbsE11rxKsAvhDfQiSM30XYbOw57YDwfnaRl6U3ABWaMNn806H+oGPzBX3d+4UgChZiYBHYBgGsBLoKoAyhR0x9G20Zmpc4P1ZoMQDcwMNclFrdhBKv6M5WWi7ZQGtjEUn35IV4OwnVjSX/WGmKqCDDUa5rmyle3bvGFiMg3WGUsF1u0EXHoqTRMGRgkAy2eugKZrqijRLYThWANBpNDL2h3UE0J0YLJdbrfe42f/NJ0wqY7/KcXKPAAAAAElFTkSuQmCC&label=lovely%20crafted%20in&message=Germany&colorA=4c566a&colorB=88c0d0"/>
   </a>
 </p>
-
-[jb-plugin-repo-nord]: https://plugins.jetbrains.com/plugin/10321-nord
-[nord-comm]: https://www.nordtheme.com/community
-[nord-contrib-guide-branching]: https://github.com/nordtheme/.github/blob/main/contributing.md#branch-organization
-[nord-contrib-guide-bugs]: https://github.com/nordtheme/.github/blob/main/contributing.md#bug-reports
-[nord-contrib-guide-docs]: https://github.com/nordtheme/.github/blob/main/contributing.md#documentations
-[nord-contrib-guide-enhance]: https://github.com/nordtheme/.github/blob/main/contributing.md#enhancement-suggestions
-[nord-contrib-guide-feedback]: https://github.com/nordtheme/.github/blob/main/contributing.md#feedback
-[nord-contrib-guide-impr-issues]: https://github.com/nordtheme/.github/blob/main/contributing.md#improve-issues
-[nord-contrib-guide-mcve]: https://github.com/nordtheme/.github/blob/main/contributing.md#mcve
-[nord-contrib-guide-pr]: https://github.com/nordtheme/.github/blob/main/contributing.md#pull-requests
-[nord-contrib-guide-styles]: https://github.com/nordtheme/.github/blob/main/contributing.md#style-guides
-[nord-contrib-guide-versioning]: https://github.com/nordtheme/.github/blob/main/contributing.md#versioning
-[nord-contrib-guide]: https://github.com/nordtheme/.github/blob/main/contributing.md
-[nord-docs-home-develop]: https://www.nordtheme.com/docs/ports/jetbrains/development
-[nord-docs-home-install]: https://www.nordtheme.com/docs/ports/jetbrains/installation
-[nord-docs-home]: https://www.nordtheme.com/docs/ports/jetbrains
-[nord-home]: https://www.nordtheme.com/ports/jetbrains
-[nord-home#editor-details]: https://www.nordtheme.com/ports/jetbrains#editor-details
-[nord-home#setup]: https://www.nordtheme.com/ports/jetbrains#setup
-[nord-home#syntax]: https://www.nordtheme.com/ports/jetbrains#syntax
