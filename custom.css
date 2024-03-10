@@ -1,0 +1,545 @@
+/*
+This theme is inspired and made based on the NORD theme
+
+Website:        https://www.nordtheme.com/
+GitHub:         https://github.com/nordtheme
+
+NORD COLOR PALETTE
+    "nord0": "#2E3440"
+    "nord1": "#3B4252"
+    "nord2": "#434C5E"
+    "nord3": "#4C566A"
+    "nord4": "#D8DEE9"
+    "nord5": "#E5E9F0"
+    "nord6": "#ECEFF4"
+    "nord7": "#8FBCBB"
+    "nord8": "#88C0D0"
+    "nord9": "#81A1C1"
+    "nord10": "#5E81AC"
+    "nord11": "#BF616A"
+    "nord12": "#D08770"
+    "nord13": "#EBCB8B"
+    "nord14": "#A3BE8C"
+    "nord15": "#B48EAD"
+*/
+
+:root {
+    --nord0:  #2E3440;
+    --nord1:  #3B4252;
+    --nord2:  #434C5E;
+    --nord3:  #4C566A;
+    --nord4:  #D8DEE9;
+    --nord5:  #E5E9F0;
+    --nord6:  #ECEFF4;
+    --nord7:  #8FBCBB;
+    --nord8:  #88C0D0;
+    --nord9:  #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+}
+
+.v-application .red--text {
+    color: var(--nord11) !important;
+    caret-color: var(--nord11) !important;
+}
+
+.v-application .orange--text {
+    color: var(--nord12) !important;
+    caret-color: var(--nord12) !important;
+}
+
+
+
+.v-progress-circular__underlay {
+    stroke: var(--nord4);
+    z-index: 1;
+}
+
+.v-application .grey.darken-2{
+    background-color: var(--nord15) !important;
+    border-color: var(--nord15) !important;
+}
+
+.v-application .grey.darken-3 {
+    background-color: var(--nord2) !important;
+    border-color: var(--nord2) !important;
+}
+
+.v-application .grey.lighten-1 {
+    background-color: var(--nord6) !important;
+    border-color: var(--nord6) !important;
+}
+
+.v-application .grey--text.text--lighten-1 {
+    color: var(--nord11) !important;
+    caret-color: var(--nord11) !important;
+}
+
+.v-application .primary.lighten-3 {
+    background-color: var(--nord8) !important;
+    border-color: var(--nord8) !important;
+}
+
+/* Light theme */
+.theme--light.v-application{
+    background: var(--nord6);
+    color: var(--nord1);
+    --v-primary-base: var(--nord9) !important;
+    --v-anchor-base:  var(--nord9) !important;
+    --v-error-base:   var(--nord11) !important;
+    --v-success-base: var(--nord14) !important;
+    --v-warning-base: var(--nord12) !important;
+    --v-panel-base:   var(--nord6) !important;
+}
+.theme--light.v-application .text--primary{
+    color: var(--nord3) !important;
+}
+
+.theme--light.v-application .text--secondary {
+    color: var(--nord1) !important;
+}
+
+.theme--light.v-application .text--disabled {
+    color: var(--nord3) !important;
+}
+
+.theme--light.v-app-bar.v-toolbar.v-sheet {
+    background-color: var(--nord4);
+}
+
+.theme--light.v-toolbar.v-sheet {
+    background-color: var(--nord4);
+}
+
+.theme--light.v-sheet {
+    background-color: var(--nord5);
+    border-color: var(--nord4);
+    color: var(--nord1);
+}
+
+html.theme--light {
+    scrollbar-color: var(--nord4) var(--nord6) !important;
+}
+
+.theme--light.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: var(--nord1) !important;
+}
+
+.theme--light.v-input, .theme--light.v-input input, .theme--light.v-input textarea {
+    color: var(--nord1) !important;
+}
+
+.theme--light.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+    background-color: var(--nord4) !important;
+}
+
+.theme--light.v-application kbd {
+    background: var(--nord6);
+    color: var(--nord1);
+}
+
+.v-application .theme--light.heading {
+    color: var(--nord1);
+}
+
+.theme--light.v-image {
+    background-color: var(--nord5) !important;
+    color: var(--nord1) !important;
+}
+
+.theme--light.v-icon {
+    color: var(--nord1);
+}
+
+.theme--light.v-icon.v-icon.v-icon--disabled {
+    color: var(--nord1) !important;
+}
+
+.theme--light.v-btn {
+    color: var(--nord1);
+}
+
+.theme--light.v-btn.v-btn--disabled, .theme--light.v-btn.v-btn--disabled .v-icon, .theme--light.v-btn.v-btn--disabled .v-btn__loading {
+    color: var(--nord3) !important;
+}
+
+.theme--light.v-btn.v-btn--disabled.v-btn--has-bg {
+    background-color: var(--nord4) !important;
+}
+
+.theme--light.v-btn.v-btn--has-bg {
+    background-color: var(--nord6);
+}
+
+.theme--light.v-btn.v-btn--icon {
+    color: var(--nord1);
+}
+
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+    border-color: var(--nord3);
+}
+
+.theme--light.v-text-field:not(.v-input--has-state):hover > .v-input__control > .v-input__slot:before {
+    border-color: var(--nord3);
+}
+
+.theme--light.v-text-field--filled > .v-input__control > .v-input__slot {
+    background: var(--nord3);
+}
+
+.theme--light.v-text-field--filled:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot:hover {
+    background: var(--nord3);
+}
+
+.theme--light.v-text-field--solo > .v-input__control > .v-input__slot {
+    background: var(--nord5);
+}
+
+.theme--light.v-text-field--solo-inverted > .v-input__control > .v-input__slot {
+    background: var(--nord3);
+}
+
+.theme--light.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot {
+    background: var(--nord3);
+}
+
+.theme--light.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot input {
+    color: var(--nord5);
+}
+
+.theme--light.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot input::placeholder {
+    color: var(--nord5);
+}
+
+.theme--light.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot .v-label {
+    color: var(--nord5);
+}
+
+.theme--light.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot fieldset {
+    color: var(--nord1);
+}
+
+.theme--light.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state):not(.v-input--is-disabled) > .v-input__control > .v-input__slot:hover fieldset {
+    color: var(--nord0);
+}
+
+.theme--light.v-text-field--outlined:not(.v-input--is-focused).v-input--is-disabled > .v-input__control > .v-input__slot fieldset {
+    color: var(--nord2);
+}
+
+.theme--light.v-list {
+    background: var(--nord5);
+    color: var(--nord1);
+}
+
+.theme--light.v-bottom-navigation {
+    background-color: var(--nord6);
+    color: var(--nord1);
+}
+
+.theme--light.v-data-table tbody tr.v-data-table__selected {
+    background: var(--nord5);
+}
+
+.theme--light.v-data-table .v-row-group__header, .theme--light.v-data-table .v-row-group__summary {
+    background: var(--nord5);
+}
+
+.theme--light.v-data-table .v-data-footer {
+    border-top: thin solid rgba(0, 0, 0, .12)
+}
+
+.theme--light.v-data-table .v-data-table__empty-wrapper {
+    color: var(--nord1);
+}
+
+.theme--light.v-data-table {
+    background-color: var(--nord5);
+    color: var(--nord1);
+}
+
+.theme--light.v-data-table.v-data-table--fixed-header thead th {
+    background: var(--nord5);
+}
+
+.theme--light.v-label {
+    color: var(--nord2);
+}
+
+.theme--light.v-color-picker span {
+    color: var(--nord3);
+}
+
+.theme--light.v-color-picker .v-color-picker__input input {
+    border: thin solid var(--nord3);
+    color: var(--nord2);
+}
+
+.theme--light.v-tabs > .v-tabs-bar {
+    background-color: var(--nord4);
+}
+
+.theme--light.v-tabs-items {
+    background: var(--nord5);
+}
+
+.theme--light.v-icon. {
+    color: var(--nord1) !important;
+}
+
+.theme--light.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active), .theme--light.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active)>.v-icon, .theme--light.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active)>.v-btn, .theme--light.v-tabs>.v-tabs-bar .v-tab--disabled {
+    color: var(--nord3);
+}
+
+.theme--light.v-application .my-2 {
+    background-color: var(--nord4) !important;
+}
+
+.theme--light.v-btn-toggle:not(.v-btn-toggle--group) {
+    background: var(--nord5);
+    color: var(--nord3);
+}
+
+.theme--light.v-chip:not(.v-chip--active) {
+    background: var(--nord4);
+}
+
+.theme--light.v-chip {
+    color: var(--nord2);
+}
+
+/* Dark theme */
+.theme--dark.v-application{
+    background: var(--nord1);
+    color: var(--nord4);
+    --v-primary-base: var(--nord9) !important;
+    --v-anchor-base:  var(--nord9) !important;
+    --v-error-base:   var(--nord11) !important;
+    --v-success-base: var(--nord14) !important;
+    --v-warning-base: var(--nord12) !important;
+    --v-panel-base:   var(--nord1) !important;
+}
+.theme--dark.v-application .text--primary{
+    color: var(--nord6) !important;
+}
+
+.theme--dark.v-application .text--secondary {
+    color: var(--nord4) !important;
+}
+
+.theme--dark.v-application .text--disabled {
+    color: var(--nord6) !important;
+}
+
+.theme--dark.v-app-bar.v-toolbar.v-sheet {
+    background-color: var(--nord3);
+}
+
+.theme--dark.v-toolbar.v-sheet {
+    background-color: var(--nord3);
+}
+
+.theme--dark.v-sheet {
+    background-color: var(--nord2);
+    border-color: var(--nord3);
+    color: var(--nord4);
+}
+
+html.theme--dark {
+    scrollbar-color: var(--nord3) var(--nord1) !important;
+}
+
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+    color: var(--nord4) !important;
+}
+
+.theme--dark.v-input, .theme--dark.v-input input, .theme--dark.v-input textarea {
+    color: var(--nord4) !important;
+}
+
+.theme--dark.v-data-table>.v-data-table__wrapper>table>tbody>tr:hover:not(.v-data-table__expanded__content):not(.v-data-table__empty-wrapper) {
+    background-color: var(--nord3) !important;
+}
+
+.theme--dark.v-application kbd {
+    background: var(--nord1);
+    color: var(--nord4);
+}
+
+.v-application .theme--dark.heading {
+    color: var(--nord4);
+}
+
+.theme--dark.v-image {
+    background-color: var(--nord2) !important;
+    color: var(--nord4) !important;
+}
+
+.theme--dark.v-icon {
+    color: var(--nord4);
+}
+
+.theme--dark.v-icon.v-icon.v-icon--disabled {
+    color: var(--nord4) !important;
+}
+
+.theme--dark.v-btn {
+    color: var(--nord4);
+}
+
+.theme--dark.v-btn.v-btn--disabled, .theme--dark.v-btn.v-btn--disabled .v-icon, .theme--dark.v-btn.v-btn--disabled .v-btn__loading {
+    color: var(--nord6) !important;
+}
+
+.theme--dark.v-btn.v-btn--disabled.v-btn--has-bg {
+    background-color: var(--nord3) !important;
+}
+
+.theme--dark.v-btn.v-btn--has-bg {
+    background-color: var(--nord2);
+}
+
+.theme--dark.v-btn.v-btn--icon {
+    color: var(--nord4);
+}
+
+.theme--dark.v-text-field > .v-input__control > .v-input__slot:before {
+    border-color: var(--nord6);
+}
+
+.theme--dark.v-text-field:not(.v-input--has-state):hover > .v-input__control > .v-input__slot:before {
+    border-color: var(--nord6);
+}
+
+.theme--dark.v-text-field--filled > .v-input__control > .v-input__slot {
+    background: var(--nord6);
+}
+
+.theme--dark.v-text-field--filled:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot:hover {
+    background: var(--nord6);
+}
+
+.theme--dark.v-text-field--solo > .v-input__control > .v-input__slot {
+    background: var(--nord2);
+}
+
+.theme--dark.v-text-field--solo-inverted > .v-input__control > .v-input__slot {
+    background: var(--nord6);
+}
+
+.theme--dark.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot {
+    background: var(--nord6);
+}
+
+.theme--dark.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot input {
+    color: var(--nord2);
+}
+
+.theme--dark.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot input::placeholder {
+    color: var(--nord2);
+}
+
+.theme--dark.v-text-field--solo-inverted.v-input--is-focused > .v-input__control > .v-input__slot .v-label {
+    color: var(--nord2);
+}
+
+.theme--dark.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot fieldset {
+    color: var(--nord4);
+}
+
+.theme--dark.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state):not(.v-input--is-disabled) > .v-input__control > .v-input__slot:hover fieldset {
+    color: var(--nord0);
+}
+
+.theme--dark.v-text-field--outlined:not(.v-input--is-focused).v-input--is-disabled > .v-input__control > .v-input__slot fieldset {
+    color: var(--nord5);
+}
+
+.theme--dark.v-list {
+    background: var(--nord2);
+    color: var(--nord4);
+}
+
+.theme--dark.v-bottom-navigation {
+    background-color: var(--nord1);
+    color: var(--nord4);
+}
+
+.theme--dark.v-data-table tbody tr.v-data-table__selected {
+    background: var(--nord2);
+}
+
+.theme--dark.v-data-table .v-row-group__header, .theme--dark.v-data-table .v-row-group__summary {
+    background: var(--nord2);
+}
+
+.theme--dark.v-data-table .v-data-footer {
+    border-top: thin solid rgba(0, 0, 0, .12)
+}
+
+.theme--dark.v-data-table .v-data-table__empty-wrapper {
+    color: var(--nord4);
+}
+
+.theme--dark.v-data-table {
+    background-color: var(--nord2);
+    color: var(--nord4);
+}
+
+.theme--dark.v-data-table.v-data-table--fixed-header thead th {
+    background: var(--nord2);
+}
+
+.theme--dark.v-label {
+    color: var(--nord5);
+}
+
+.theme--dark.v-color-picker span {
+    color: var(--nord6);
+}
+
+.theme--dark.v-color-picker .v-color-picker__input input {
+    border: thin solid var(--nord5);
+    color: var(--nord5);
+}
+
+.theme--dark.v-tabs > .v-tabs-bar {
+    background-color: var(--nord3);
+}
+
+.theme--dark.v-tabs-items {
+    background: var(--nord2);
+}
+
+.theme--dark.v-icon. {
+    color: var(--nord4) !important;
+}
+
+.theme--dark.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active), .theme--dark.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active)>.v-icon, .theme--dark.v-tabs>.v-tabs-bar .v-tab:not(.v-tab--active)>.v-btn, .theme--dark.v-tabs>.v-tabs-bar .v-tab--disabled {
+    color: var(--nord4);
+}
+
+.theme--dark.v-application .my-2 {
+    background-color: var(--nord3) !important;
+}
+
+.theme--dark.v-btn-toggle:not(.v-btn-toggle--group) {
+    background: var(--nord2);
+    color: var(--nord4);
+}
+
+.theme--dark.v-btn-toggle:not(.v-btn-toggle--group) .v-btn.v-btn{
+    border-color: var(--nord0) !important;
+}
+
+.theme--dark.v-chip:not(.v-chip--active) {
+    background: var(--nord3);
+}
+
+.theme--dark.v-chip {
+    color: var(--nord6);
+}
