@@ -11,6 +11,16 @@
 
 <p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette.</p>
 
+## Installation 
+```bash
+git clone https://github.com/Lyaguhh/mainsail-nord.git ~/klipper_config/.theme
+```
+
+## Update
+```bash
+git -C ~/klipper_config/.theme pull
+```
+
 ## Dark theme
 
 <p align="center">
@@ -34,11 +44,6 @@
     <img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.svg" width="100%" />
   </picture>
 </p>
-
-## Installation 
-```bash
-git clone https://github.com/Lyaguhh/mainsail-nord.git ~/klipper_config/.theme
-```
 
 <p align="center">
   Copyright &copy; 2024-present <a href="" target="_blank">Lyaguhh_</a>
