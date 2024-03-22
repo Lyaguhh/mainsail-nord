@@ -12,15 +12,15 @@ NORD COLOR PALETTE
     "nord4": "#D8DEE9"
     "nord5": "#E5E9F0"
     "nord6": "#ECEFF4"
-    "nord7": "#8FBCBB"
-    "nord8": "#88C0D0"
-    "nord9": "#81A1C1"
-    "nord10": "#5E81AC"
-    "nord11": "#BF616A"
-    "nord12": "#D08770"
-    "nord13": "#EBCB8B"
-    "nord14": "#A3BE8C"
-    "nord15": "#B48EAD"
+    "nord7": "#8FBCBB" (143,188,187)
+    "nord8": "#88C0D0" (136,192,208)
+    "nord9": "#81A1C1" (129,161,193)
+    "nord10": "#5E81AC" (94,129,172)
+    "nord11": "#BF616A" (191,97,106)
+    "nord12": "#D08770" (208,135,112)
+    "nord13": "#EBCB8B" (235,203,139)
+    "nord14": "#A3BE8C" (163,190,140)
+    "nord15": "#B48EAD" (180,142,173)
 */
 
 :root {
@@ -40,6 +40,7 @@ NORD COLOR PALETTE
     --nord13: #EBCB8B;
     --nord14: #A3BE8C;
     --nord15: #B48EAD;
+
 }
 
 .v-application .red--text {
@@ -52,7 +53,10 @@ NORD COLOR PALETTE
     caret-color: var(--nord12) !important;
 }
 
-
+.v-application .green--text {
+    color: var(--nord14) !important;
+    caret-color: var(--nord14) !important;
+}
 
 .v-progress-circular__underlay {
     stroke: var(--nord4);
@@ -89,11 +93,12 @@ NORD COLOR PALETTE
     background: var(--nord6);
     color: var(--nord1);
     --v-primary-base: var(--nord9) !important;
-    --v-anchor-base:  var(--nord9) !important;
+    --v-anchor-base:  var(--nord7) !important;
     --v-error-base:   var(--nord11) !important;
     --v-success-base: var(--nord14) !important;
     --v-warning-base: var(--nord12) !important;
     --v-panel-base:   var(--nord6) !important;
+    --v-secondary-base: var(--nord10) !important;
 }
 .theme--light.v-application .text--primary{
     color: var(--nord3) !important;
@@ -317,11 +322,12 @@ html.theme--light {
     background: var(--nord1);
     color: var(--nord4);
     --v-primary-base: var(--nord9) !important;
-    --v-anchor-base:  var(--nord9) !important;
+    --v-anchor-base:  var(--nord7) !important;
     --v-error-base:   var(--nord11) !important;
     --v-success-base: var(--nord14) !important;
     --v-warning-base: var(--nord12) !important;
-    --v-panel-base:   var(--nord1) !important;
+    --v-panel-base:   var(--nord6) !important;
+    --v-secondary-base: var(--nord10) !important;
 }
 .theme--dark.v-application .text--primary{
     color: var(--nord6) !important;
