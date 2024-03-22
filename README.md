@@ -13,12 +13,12 @@
 
 ## Installation 
 ```bash
-git clone https://github.com/Lyaguhh/mainsail-nord.git ~/klipper_config/.theme
+git clone https://github.com/Lyaguhh/mainsail-nord.git ~/printer_data/config/.theme
 ```
 
 ## Update
 ```bash
-git -C ~/klipper_config/.theme pull
+git -C ~/printer_data/config/.theme pull
 ```
 
 ## Dark theme
