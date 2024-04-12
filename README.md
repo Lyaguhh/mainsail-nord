@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<p align="center">An arctic, north-bluish clean and elegant Mainsail theme.</p>
+<p align="center">An arctic, north-bluish clean and elegant <a href="https://github.com/mainsail-crew/mainsail" target="_blank">Mainsail theme.</a></p>
 
 <p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette.</p>
 
